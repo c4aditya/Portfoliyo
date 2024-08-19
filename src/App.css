@@ -1,38 +1,276 @@
-.App {
-  text-align: center;
+.upper-section {
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nev-bar nav {
+  margin-left: 150px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 1100px;
+  padding: 15px;
+}
+
+.main-section {
+  padding: 15px;
+  width: 100%;
+  height: 700px;
+  margin-left: 150px;
+  display: flex;
+}
+
+.messanger img {
+  margin-top: 25px;
+}
+
+.main-image img {
+  position: absolute;
+  left: 497px;
+}
+
+.main-text {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 150px;
+}
+
+.main-text h1 {
+  font-size: 80px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-text h3 {
+  font-size: 25px;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.about-me {
+  display: flex;
+  gap: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.about-me:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+
+.arrow-img {
+  margin-top: 10px;
+}
+
+.icons {
+  margin-left: 750px;
+  margin-top: 150px;
+}
+
+.icons ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.ic {
+  color: gray;
+}
+
+.more {
+  margin-bottom: 25px;
+  display: flex;
+  font-size: 20px;
+  gap: 15px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  margin-left: 700px;
+  text-align: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.more:hover {
+  background-color: red;
+  transform: scale(1.1);
+}
+
+.latest-work {
+  position: relative;
+  margin-top: 90px;
+}
+
+.content-latest-work {
+  display: flex;
+
+
+  .content{
+    margin-left: 340px;
+    width: 40%;   
   }
-  to {
-    transform: rotate(360deg);
+  .content h1{
+    color: red;
+    margin-bottom: 20px;
+    font-size: 25px;
+
   }
+  .content p{
+    gap: 15px;
+  }
+ 
+}
+
+.tech {
+  padding: 12px;
+  margin-top: 20px;
+  display: flex;
+  gap: 50px;
+  
+  h1{
+    color:black;
+    padding: 5px;
+
+    border:1px solid black;
+    border-radius: 15px;
+  }
+
+}
+
+.content-latest-work img {
+  position: relative;
+}
+
+.vertical-line {
+  position: absolute;
+  bottom: -100em;
+  width: 2px;
+  left: 50%;
+  background-color: blue;
+  opacity: 1.2;
+  top: 835px;
+  z-index: 0;
+  overflow: hidden;
+}
+.horigental-line{
+  position: absolute;
+  border: 2px solid red;
+  width: 20%;
+  top: 55%;
+  z-index: 0;
+  margin-left:470px;
+}
+
+.horigental-line2{
+  position: absolute;
+  border: 2px solid blueviolet;
+  width: 20%;
+  margin-left:750px;
+  top: 222%; 
+  z-index: 0;
+}
+
+.horigental-line3{
+  position: absolute;
+  border: 2px solid red;
+  width: 20%;
+  margin-left:470px;
+  top: 282%; 
+  z-index: 0;
+}
+
+
+
+
+.weather-app {
+  
+  display: flex;
+  padding: 15px;
+  margin-top: 150px;
+
+  .content{
+    width: 40%;    
+    margin-left: 110px;
+  }
+  .content h1{
+    color: red;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+  }
+  .content p{
+    gap: 15px;
+  }
+
+  img {
+    position: relative;
+    margin-left: 290px;
+  }
+
+}
+
+
+
+
+
+.traveal-project {
+  margin-top: 100px;
+  display: flex;
+
+
+  .content{
+  
+    
+    width: 40%;    
+    margin-left: 320px;
+  }
+  .content h1{
+    color: red;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+  }
+  .content p{
+    gap: 15px;
+  }
+
+}
+
+.cricle {
+  width: 2%;
+  height: 10%;
+  border: 2px solid red;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top:50%;
+  left: 49%;
+  z-index: 1;
+}
+
+.cricle1 {
+  width: 2%;
+  height: 5%;
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 50%;
+  position: absolute;
+  left: 49%;
+  top: 220%;  
+  z-index: 1;
+}
+
+.cricle2 {
+  width: 2%;
+  height: 5%;
+  background-color: white;
+  border: 2px solid red;
+  border-radius: 50%;
+  position: absolute;
+  left: 49%;
+  top: 280%;  
+  z-index: 1;
 }
